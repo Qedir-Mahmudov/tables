@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.headleft{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+.smallright{
+    display: flex;
+    margin-top: 10px;
+}
+
+.search{
+    height: 35px;
+    width: 160px;
+    background-color: rgb(251, 255, 255);
+    border: 1px solid white;
+    border-radius: 5%;
+}
+.loop{
+    height: 35px;
+    width: 40px;
+    background-color: rgb(32, 93, 207);
+    border-radius: 10%;
+}
+
+.mainright{
+    background-color: rgb(243, 251, 252);
+    height: 100vh;
+    width: calc(100% - 250px);
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .mainright {
+      width: 100%;
+    }
+  }
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+
+#main{
+    height: 100vh;
+    width: 100%;
+   
+}
+.mainnn{
+    display: flex;
+}
+
+.mainleft{
+    background-color: black;
+    height: 100vh;
+    width: 250px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainleft {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+.datatable{
+    border: 1px solid rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+    
+}
+
+/* @media only screen and (max-width: 600px) {
+    .datatable {
+        display: flex;
+      flex-wrap: wrap;
+    }
+  } */
+
+
+
+
+.datatablex{
+    height: 600px;
+    width: 100% ;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+.dttable1{
+    height: 35px;
+    width: 100%;
+    background-color: rgb(224, 226, 226);
+    border: 1px solid;
+    
+}
+
+.dttable2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    height: 49px;
+}
+
+.dttable2left{
+
+}
+
+.dttable3{
+    background-color: rgb(255, 255, 255);
+    height: 513px;
+   
+}
